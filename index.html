@@ -1,23 +1,492 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "KT 인터넷 TV 요금제 비교 최신 정보",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@type": "Article",
+                "url": "/kt-internet-tv-plan-comparison",
+                "name": "KT 인터넷 TV 요금제 가입 전 필수 확인: 2026년 최신 결합 할인과 현금지원",
+                "datePublished": "2025-11-03T18:00:00+09:00",
+                "author": {
+                    "@type": "Person",
+                    "name": "KT인터넷TV전문가",
+                    "url": "/about-us"
+                },
+                "headline": "KT 인터넷 TV 요금제 가입 전 필수 확인: 2026년 최신 결합 할인과 현금지원"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "@type": "Article",
+                "url": "/kt-internet-installation-guide",
+                "name": "KT 인터넷 가입 절차 A to Z: 설치 비용과 기간, 사은품 지급 시기 상세 안내",
+                "datePublished": "2025-11-02T18:00:00+09:00",
+                "author": {
+                    "@type": "Person",
+                    "name": "KT인터넷TV전문가",
+                    "url": "/about-us"
+                },
+                "headline": "KT 인터넷 가입 절차 A to Z: 설치 비용과 기간, 사은품 지급 시기 상세 안내"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "@type": "Article",
+                "url": "/kt-giga-vs-100m",
+                "name": "KT 기가 인터넷 vs 100M 요금제 비교: 나에게 맞는 속도 선택 가이드",
+                "datePublished": "2025-11-01T18:00:00+09:00",
+                "author": {
+                    "@type": "Person",
+                    "name": "KT인터넷TV전문가",
+                    "url": "/about-us"
+                },
+                "headline": "KT 기가 인터넷 vs 100M 요금제 비교: 나에게 맞는 속도 선택 가이드"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+                "@type": "Article",
+                "url": "/kt-tv-plan-details",
+                "name": "KT TV 채널 패키지 분석: 올레 TV 베이직, 라이트, 초이스 요금제 차이점 완벽 비교",
+                "datePublished": "2025-10-31T18:00:00+09:00",
+                "author": {
+                    "@type": "Person",
+                    "name": "KT인터넷TV전문가",
+                    "url": "/about-us"
+                },
+                "headline": "KT TV 채널 패키지 분석: 올레 TV 베이직, 라이트, 초이스 요금제 차이점 완벽 비교"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+                "@type": "Article",
+                "url": "/kt-bundling-discounts",
+                "name": "KT 결합 할인으로 요금 폭탄 피하는 법: 휴대폰 결합 할인 혜택 상세 분석",
+                "datePublished": "2025-10-30T18:00:00+09:00",
+                "author": {
+                    "@type": "Person",
+                    "name": "KT인터넷TV전문가",
+                    "url": "/about-us"
+                },
+                "headline": "KT 결합 할인으로 요금 폭탄 피하는 법: 휴대폰 결합 할인 혜택 상세 분석"
+            }
+        }
+    ]
+}
+    </script>
+    <style>
+        /* 기본 스타일 및 부드러운 색감 적용 */
+        body { font-family: 'Noto Sans KR', sans-serif; line-height: 1.7; margin: 0; padding: 0; background: #f0f4f8; color: #333; }
+        header, section, footer { max-width: 1000px; margin: 25px auto; padding: 25px 20px; background: #ffffff; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08); }
+
+        /* 🎨 다채롭고 부드러운 색감: 금융/신뢰 테마 */
+        h1 { color: #007bff; /* 메인 타이틀 강조 */ font-size: 2.5em; text-align: center; margin-bottom: 5px; }
+        h2 { color: #28a745; /* 섹션 타이틀: 절약/혜택 강조 */ border-bottom: 3px solid #e9ecef; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: #17a2b8; /* 서브 타이틀: 정보성/팁 강조 */ margin-top: 20px; }
+
+        ul, ol { padding-left: 25px; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: separate; border-spacing: 0 10px; margin: 20px 0; }
+        th, td { padding: 15px; text-align: left; border: none; }
+        th { background: #007bff; color: #fff; border-radius: 8px 8px 0 0; }
+        td { background: #f8f9fa; border-bottom: 1px solid #dee2e6; }
+        tr:last-child td { border-bottom: none; }
+
+        a { color: #007bff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* 🚀 CTA 버튼 강조 */
+        .btn-cta {
+            display: block; /* 전체 너비 사용 */
+            width: 80%;
+            margin: 25px auto;
+            padding: 18px 30px;
+            background: #ff5722; /* 액션 색상: 오렌지 */
+            color: #fff;
+            font-size: 1.2em;
+            font-weight: 700;
+            border-radius: 40px;
+            box-shadow: 0 6px 12px rgba(255, 87, 34, 0.4);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            text-align: center;
+            cursor: pointer;
+            border: none;
+            text-transform: uppercase;
+        }
+        .btn-cta:hover {
+            background: #e64a19;
+            transform: translateY(-2px);
+        }
+
+        /* 폼 스타일 */
+        form label { font-weight: 600; display: block; margin-top: 15px; color: #333; }
+        form input[type="text"], form input[type="tel"], form input[type="number"], form select, form textarea, form input[type="checkbox"] {
+            width: 100%;
+            padding: 12px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ced4da;
+            border-radius: 6px;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+        form input:focus, form select:focus, form textarea:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+        form input[type="checkbox"] {
+            width: auto;
+            margin-right: 10px;
+        }
+        .form-checkbox-group label { display: inline-block; width: auto; font-weight: normal; }
+
+        /* 정보성 텍스트 박스 스타일 */
+        .info-box {
+            background: #e6f7ff; /* 라이트 블루 */
+            border-left: 5px solid #007bff;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        /* 앵커 숨김 처리 */
+        .anchor { display: block; position: relative; top: -80px; visibility: hidden; }
+
+        /* 반응형 */
+        @media(max-width: 768px) {
+            header, section, footer { margin: 15px auto; padding: 15px; }
+            h1 { font-size: 2em; }
+            .btn-cta { width: 90%; padding: 15px 0; font-size: 1.1em; }
+            th, td { display: block; width: 100%; text-align: left; }
+            th { border-radius: 8px; margin-top: 10px; }
+        }
+        
+        /* 이미지 스타일 */
+        .main-image { width: 100%; max-height: 400px; object-fit: cover; border-radius: 12px; margin-bottom: 20px; }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>KT 인터넷 TV 요금제 비교 견적: <br>최대 현금지원 및 사은품 혜택 받기</h1>
+        <p>복잡한 요금제, 이제 현명하게 비교하고 최대 사은품과 현금지원 혜택을 받으세요!</p>
+        <a href="#quick-estimate" class="btn-cta">🚀 내게 맞는 **KT 인터넷 TV 요금제** 견적 즉시 확인하기</a>
+    </header>
+
+    <nav aria-label="주요 서비스 메뉴">
+        <ul>
+            <li><a href="#quick-estimate">실시간 견적 (필수)</a></li>
+            <li><a href="#seo-keywords">KT 인터넷 핵심 키워드</a></li>
+            <li><a href="#saving-tips">요금 절약 팁</a></li>
+            <li><a href="#coverage-guide">요금제 및 보장 내용</a></li>
+            <li><a href="#trust-links">신뢰 정보 출처</a></li>
+            <li><a href="#long-info">심층 정보 및 FAQ</a></li>
+            <li><a href="#contact-more">추가 상담 신청</a></li>
+        </ul>
     </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+
+    <section id="quick-estimate">
+        <span id="quick-estimate-anchor" class="anchor"></span>
+        <h2>🔎 **나만을 위한 KT 인터넷 TV 요금제** 실시간 비교 견적</h2>
+        <p>1분 만에 KT의 모든 인터넷 요금제와 TV 상품을 비교하고, 숨겨진 결합 할인 혜택까지 확인하세요. 저희 전문가는 고객님께 가장 **저렴한** 요금제와 **최대 사은품**을 제안해 드립니다.</p>
+        <form action="/compare-submit" method="POST" style="max-width:800px; margin:auto;">
+            <h3>🔑 **필수 서비스 가입 정보 입력**</h3>
+            <div style="display:flex; flex-wrap:wrap; justify-content:space-between;">
+                <div style="width:48%;">
+                    <label for="service-type">희망 서비스 유형<span style="color:red;">*</span></label>
+                    <select id="service-type" name="service_type" required>
+                        <option value="">선택</option>
+                        <option value="인터넷+TV">인터넷 + TV 결합</option>
+                        <option value="인터넷">인터넷만 단독</option>
+                        <option value="TV">TV만 단독</option>
+                    </select>
+                </div>
+                <div style="width:48%;">
+                    <label for="internet-speed">희망 인터넷 속도<span style="color:red;">*</span></label>
+                    <select id="internet-speed" name="internet_speed" required>
+                        <option value="">선택</option>
+                        <option value="100M">100M (가정용 표준)</option>
+                        <option value="500M">500M (기가 라이트)</option>
+                        <option value="1G">1G (기가 인터넷)</option>
+                    </select>
+                </div>
+            </div>
+
+            <label for="tv-package">희망 TV 채널 패키지 (TV 포함 시)</label>
+            <select id="tv-package" name="tv_package">
+                <option value="none">TV 미신청</option>
+                <option value="basic">베이직 (일반형)</option>
+                <option value="light">라이트 (실속형)</option>
+                <option value="choice">초이스 (프리미엄형)</option>
+            </select>
+
+            <label for="phone-bundle">KT 휴대폰 결합 할인 여부</label>
+            <select id="phone-bundle" name="phone_bundle">
+                <option value="no">없음</option>
+                <option value="single">1회선 결합</option>
+                <option value="family">가족 2회선 이상 결합</option>
+            </select>
+
+            <label for="location">설치 희망 지역<span style="color:red;">*</span></label>
+            <input type="text" id="location" name="location" required placeholder="예: 서울특별시 강남구, 경기도 수원시, 부산광역시 해운대구">
+
+            <div class="form-checkbox-group">
+                <input type="checkbox" id="privacy-agree" name="privacy_agree" required>
+                <label for="privacy-agree">개인정보 수집 및 이용 동의 (필수)</label>
+            </div>
+
+            <button type="submit" class="btn-cta">최대 사은품 **KT 요금제** 견적 받기</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <section id="seo-keywords">
+        <span id="seo-keywords-anchor" class="anchor"></span>
+        <h2>🔍 **KT 인터넷 TV 요금제** 핵심 키워드 및 검색 의도 분석</h2>
+        <p class="info-box">
+            네이버 웹사이트 상위 노출을 위해 사용자들이 실제로 검색하고 궁금해하는 **자동완성, 연관 검색어**를 활용하여 심층적인 정보를 제공합니다. 'KT 인터넷 요금제' 검색 시 함께 노출되는 정보들을 총망라합니다.
+        </p>
+
+        <h3>연관 키워드 & 함께 많이 찾는 카테고리 (정보성 텍스트 대폭 추가 시작)</h3>
+        <p>
+            **KT 인터넷 TV 요금제**를 검색하는 사용자들은 대부분 **사은품, 현금지원, 결합 할인**과 같은 혜택에 관심이 높습니다. 단순히 월 **가격**을 비교하는 것을 넘어, 신규 가입 시 제공되는 **지원금**의 **규모**를 중요하게 생각합니다. **2026년** 최신 정보를 기준으로 볼 때, KT는 AI 기반 셋톱박스인 **기가 지니**를 통한 스마트 홈 서비스를 강화하고 있습니다. 많은 사용자들이 **KT 인터넷 가입 후기**를 찾으며, 특히 **네이버**나 **구글** 검색 엔진뿐만 아니라 **유튜브**에서도 **KT 인터넷 설치** 과정이나 **결합 할인** 상세 정보를 확인하고 있습니다.
+        </p>
+
+        <ol>
+            <li>**KT 인터넷 요금제 비교:** (핵심 키워드) KT의 다양한 인터넷 속도(100M, 500M, 1G)와 TV 채널 패키지를 비교하여 최적의 **요금제**를 찾는 과정입니다.</li>
+            <li>**KT 사은품 현금지원:** (연관 검색어) 신규 가입 시 제공되는 혜택으로, **업체**별로 **현금지원 금액**이 달라 **비교**가 필수입니다.</li>
+            <li>**KT 결합 할인:** (함께 찾는 카테고리) KT 휴대폰을 사용하는 가족 구성원이 많을수록 **할인율**이 높아지며, 이는 **KT 인터넷 요금제**의 실질적인 **비용**을 낮추는 핵심 요소입니다.</li>
+            <li>**KT 인터넷 설치:** (자동완성) **KT 전문** 설치 기사의 방문 일정 및 **설치비용** 관련 정보입니다.</li>
+            <li>**기가 지니 요금제:** (관련 상품) KT의 AI 스피커 연동 서비스로, **TV 요금제**와 결합하여 스마트 홈 환경을 구축할 수 있습니다.</li>
+        </ol>
+
+        <p>
+            **KT 인터넷 TV 요금제**의 선택은 단순히 **저렴한곳**을 찾는 것 이상의 복잡성을 가집니다. **KT인터넷티비요금제**는 고객의 거주 지역(예: **서울, 부산, 대구, 인천, 광주, 대전, 울산** 등 대도시와 **세종, 강원, 충청, 전라, 경상, 제주** 등 지방 지역)에 따라 프로모션이 다를 수 있으며, 특히 **KT 기가 인터넷** 설치 가능 여부는 지역 인프라에 따라 달라집니다. **내돈내산** 후기를 통해 **KT 인터넷 TV**의 실제 **가격**과 서비스 품질을 확인하는 것이 중요합니다. 또한 **KT인터넷티비요금제**는 **SKT, LG U+**와 비교하여 **장단점**이 뚜렷하므로, 여러 **업체**를 통해 **비교 견적**을 받는 것이 현명합니다. **2026년** 최신 정보를 바탕으로 **KT 인터넷 요금제**를 파악할 때, **AI** 기술이 접목된 **기가 지니** 서비스나 **유선전화** 결합 여부도 **요금**에 큰 영향을 미칩니다.
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="saving-tips">
+        <span id="saving-tips-anchor" class="anchor"></span>
+        <h2>✅ **KT 인터넷 TV 요금제** 최대 절약! 핵심 할인 팁 & 결합 전략</h2>
+        <p>
+            월 **요금**을 절감하고 **사은품**과 **현금지원**을 최대로 받기 위해서는 **KT인터넷티비요금제**의 결합 상품 구조를 이해해야 합니다. 다음은 **2026년** 기준으로 가장 효과적인 **KT 인터넷 가입** 팁입니다.
+        </p>
+
+        <h3>1. 휴대폰 결합 할인: KT 가족 구성원 수에 따른 할인 폭 극대화</h3>
+        <p>
+            **KT 인터넷 TV 요금제**의 핵심 **할인** 전략은 휴대폰 **결합**입니다. KT의 '프리미엄 가족 결합'이나 '총액 결합 할인'을 활용하면, 가족 구성원이 사용하는 휴대폰 요금제 합산 금액에 따라 **KT 인터넷** 요금을 무료로 이용할 수도 있습니다. 예를 들어, **가족** 3명이 KT 휴대폰을 사용하는 경우, **인터넷 요금**이 절반 이상 **할인**되는 경우가 많습니다. 반드시 가입 전 **전문 업체**를 통해 가족의 휴대폰 명의와 요금제를 확인하여 **결합** 가능 여부를 따져봐야 합니다.
+        </p>
+
+        <h3>2. 약정 기간 및 사은품 전략: 3년 약정 vs 1년 약정</h3>
+        <p>
+            대부분의 **KT 인터넷 가입**은 3년 약정 기준으로 이루어집니다. 3년 약정 시 가장 많은 **현금지원**과 **사은품** 혜택을 받을 수 있기 때문입니다. 단기간 거주 예정인 고객(예: **경기도**의 단기 거주자)은 1년 약정을 고려할 수 있지만, **가격** 대비 **혜택**이 현저히 낮습니다. **KT인터넷티비요금제**의 **현금지원** 금액은 3년 약정 기준으로 책정되며, **신규 가입** 시점에 따라 **금액** 변동폭이 크므로, **네이버**나 **구글** 검색으로 최신 **이벤트** 정보를 확인하는 것이 좋습니다.
+        </p>
+
+        <h3>3. IPTV 채널 및 추가 서비스 선택: 기가 지니, VOD, IoT 서비스</h3>
+        <p>
+            **KT TV 요금제**는 채널 수에 따라 '베이직', '라이트', '초이스' 등으로 나뉩니다. 단순히 채널 수만 보고 비싼 **요금제**를 선택하기보다는, 실제로 시청하는 채널이나 VOD 이용 습관을 고려해야 합니다. 특히 **기가 지니**와 같은 AI 셋톱박스나 **IoT** 서비스 추가 시 **월 요금**이 상승할 수 있으므로, **KT인터넷티비요금제**의 **총 비용**을 꼼꼼히 **견적** 받아야 합니다.
+        </p>
+
+        <p class="info-box">
+            💡 **핵심 정리:** **KT인터넷티비요금제**의 **최저가**는 단순히 월 **요금**이 **저렴한곳**이 아닙니다. 휴대폰 **결합 할인**을 통한 **할인** 금액, **현금지원** 금액, 그리고 **3년** 동안의 **총 비용**을 모두 합산하여 비교해야 합니다. **전문 업체**의 **상담**을 통해 고객님의 상황에 맞는 최적의 **요금제**를 찾는 것이 중요합니다.
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="coverage-guide">
+        <span id="coverage-guide-anchor" class="anchor"></span>
+        <h2>🛡️ **KT 인터넷 TV 요금제** 상세 분석 및 비교 (2026년 기준)</h2>
+        <p>
+            **KT인터넷티비요금제**는 크게 인터넷 속도와 TV 채널 수에 따라 나뉩니다. 고객님의 사용 패턴에 따라 낭비 없이 효율적인 **요금제**를 선택하는 것이 중요합니다.
+        </p>
+
+        <h3>1. 인터넷 속도별 요금제 상세 비교 (100M, 500M, 1G)</h3>
+        <p>
+            KT의 인터넷 **상품**은 '올레 기가 인터넷'이라는 이름으로 제공되며, 속도에 따라 **요금**이 달라집니다.
+        </p>
+        <table style="margin-bottom: 25px;">
+            <thead>
+                <tr>
+                    <th>구분</th>
+                    <th>표준 속도</th>
+                    <th>추천 사용 환경</th>
+                    <th>월 요금 (3년 약정 기준)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>**슬림 (100M)**</td>
+                    <td>최대 100Mbps</td>
+                    <td>1~2인 가구, 웹서핑 및 일반 스트리밍</td>
+                    <td>약 22,000원</td>
+                </tr>
+                <tr>
+                    <td>**기가 라이트 (500M)**</td>
+                    <td>최대 500Mbps</td>
+                    <td>3~4인 가구, 4K UHD 스트리밍, 온라인 게임, 스마트 홈 기기 다수</td>
+                    <td>약 33,000원</td>
+                </tr>
+                <tr>
+                    <td>**기가 컴팩트 (1G)**</td>
+                    <td>최대 1Gbps</td>
+                    <td>헤비 게이머, 대용량 파일 업다운로드, 다수 동시 사용자 가구</td>
+                    <td>약 38,500원</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="info-box">
+            **기가 인터넷**을 신청하기 전에 반드시 **설치 가능 지역**인지 확인해야 합니다. 특히 **광주**나 **대전** 같은 광역시 외곽 지역이나 신축 건물의 경우 **KT인터넷티비요금제**의 기가망 구축 여부를 체크해야 합니다. **100M** 속도는 일반적인 가정용으로 충분하지만, **500M**나 **1G**는 **4K UHD** 고화질 영상 시청, 온라인 게임, 스마트폰 동시 사용이 많은 가구에 **추천**됩니다.
+        </p>
+
+        <h3>2. TV 상품 패키지 상세 분석</h3>
+        <p>
+            **KT TV 요금제**는 채널 수와 VOD 이용 환경에 따라 나뉩니다.
+        </p>
+        <table style="margin-bottom: 25px;">
+            <thead>
+                <tr>
+                    <th>상품명</th>
+                    <th>채널 수</th>
+                    <th>주요 특징</th>
+                    <th>월 요금 (인터넷 결합 시)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>**TV 에센스**</td>
+                    <td>약 270개 이상</td>
+                    <td>최다 채널 구성, VOD 할인 혜택, 고급형</td>
+                    <td>약 16,500원</td>
+                </tr>
+                <tr>
+                    <td>**TV 라이트**</td>
+                    <td>약 250개 이상</td>
+                    <td>인기 채널 위주 구성, 합리적인 **가격**</td>
+                    <td>약 12,100원</td>
+                </tr>
+                <tr>
+                    <td>**TV 베이직**</td>
+                    <td>약 230개 이상</td>
+                    <td>기본 채널 위주, **저렴한** 요금제, 알뜰형</td>
+                    <td>약 9,900원</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            **KT TV 요금제**는 **SKT**나 **LG U+**와 비교하여 콘텐츠 독점 **상품**이나 제휴 **이벤트**가 강점입니다. 특히 KT는 **넷플릭스**와 **유튜브** 등 OTT 서비스에 최적화된 셋톱박스를 제공하며, **KT인터넷티비요금제**와 결합 시 추가적인 **할인 혜택**을 제공합니다.
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="trust-links">
+        <span id="trust-links-anchor" class="anchor"></span>
+        <h2>🌐 **신뢰할 수 있는 인터넷 TV 정보 출처**</h2>
+        <p>
+            **KT인터넷티비요금제** 정보 및 관련 법규는 끊임없이 변동합니다. 아래 공신력 있는 기관 및 사이트를 통해 정확하고 신뢰할 수 있는 정보를 직접 확인해보세요. 이는 **네이버 웹사이트 상위 노출**을 위한 신뢰도 확보(E-A-T)에도 큰 도움을 줍니다.
+        </p>
+
+        <ol>
+            <li><a href="https://www.fcc.go.kr/" target="_blank">**[방송통신위원회]**</a>: 인터넷, TV, 휴대폰 등 통신 서비스 관련 정책 및 분쟁 조정 정보 제공.</li>
+            <li><a href="https://www.kcc.go.kr/" target="_blank">**[과학기술정보통신부]**</a>: 통신 인프라, 5G 정책, 요금제 인가 등 국가 통신 정책 담당.</li>
+            <li><a href="https://www.ftc.go.kr/" target="_blank">**[공정거래위원회]**</a>: 통신사 불공정 거래, 허위 과장 광고 등에 대한 소비자 보호 규정.</li>
+            <li><a href="https://namu.wiki/w/KT" target="_blank">**[나무위키]** KT 항목</a>: KT의 역사, 상품, 서비스 특징 등 광범위하고 이해하기 쉽게 정리된 비전문가 친화적인 정보.</li>
+            <li><a href="https://www.kisa.or.kr/" target="_blank">**[한국인터넷진흥원 (KISA)]**</a>: 인터넷 서비스 이용자 보호, 개인정보 보호 관련 가이드라인.</li>
+        </ol>
+
+        <p>
+            이러한 공식 채널을 통해 **KT인터넷티비요금제** 산출 기준과 **SKT, LG U+** 등 타사와의 **차이점**을 교차 확인하는 것이 현명한 소비자 행동입니다. 특히 **방송통신위원회**는 **인터넷 가입** 시 **현금지원** 상한선 등 규제를 담당하므로, 과도한 **현금지원**을 약속하는 **업체**는 피하는 것이 좋습니다.
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="long-info">
+        <span id="long-info-anchor" class="anchor"></span>
+        <h2>📚 **KT 인터넷 TV 요금제** 심층 정보 및 자주 묻는 질문 (FAQ)</h2>
+        <p>
+            **KT인터넷티비요금제**를 둘러싼 오해와 궁금증을 해소하고, 복잡한 통신 용어를 명확하게 설명하여 검색자의 체류 시간을 극대화합니다. (이 부분에 긴 정보성 텍스트를 배치합니다. 실제 소스는 가이드라인에 따라 축약하여 작성합니다.)
+        </p>
+
+        <h3>1. **KT 인터넷 가입** 시 **현금지원** 및 **사은품** 지급 기준은?</h3>
+        <p>
+            **KT인터넷티비요금제**를 신규 가입하는 고객에게는 통상적으로 **현금지원** 또는 **사은품**이 제공됩니다. 이 혜택은 **방송통신위원회**가 정한 상한선(유치 수당) 내에서 지급되며, **업체**마다 **금액**에 **차이점**이 발생합니다. **네이버**나 **구글** 검색으로 **'인터넷 가입 사은품 많이 주는 곳'**을 검색해 보면, **디시인사이드**나 **뽐뿌** 같은 커뮤니티에서 **내돈내산 후기**를 통해 **사은품** 지급 규모를 비교해볼 수 있습니다. **현금지원** 금액은 **KT** 본사 정책에 따라 **이벤트** 형태로 주기적으로 변동되므로, **신규 가입** 시점에 **전문 업체**를 통해 **최신 정보**를 확인해야 합니다.
+        </p>
+
+        <h3>2. **KT** 휴대폰 **결합 할인**은 어떻게 적용되나요?</h3>
+        <p>
+            **KT인터넷티비요금제**는 휴대폰 **결합 할인**이 핵심입니다. **KT**의 대표적인 **결합 상품**으로는 '프리미엄 가족 결합'이 있으며, 이는 가족 구성원들이 사용하는 휴대폰 요금제를 합산하여 **인터넷 요금**을 **할인**해 주는 방식입니다. 예를 들어, **가족** 2명이 각각 69,000원 이상의 요금제를 사용하면 **KT인터넷** **요금**이 **무료**가 되거나, **TV 요금**까지 **할인**받을 수 있습니다. **KT** 본사 고객센터나 **전문 업체**를 통해 가족의 휴대폰 명의를 확인하고 **결합** 신청을 해야 합니다.
+        </p>
+
+        <h3>3. **KT**의 **기가 지니** 서비스란 무엇이며, **요금제**에 어떤 영향을 미치나요?</h3>
+        <p>
+            **KT 기가 지니**는 인공지능(AI) 기반의 셋톱박스로, **TV 시청**뿐만 아니라 음성 명령을 통한 **스마트 홈** 제어를 가능하게 합니다. **KT인터넷티비요금제** 중 'AI TV' 상품을 선택하면 **기가 지니** 셋톱박스가 제공됩니다. **가격**은 일반 셋톱박스보다 비싸지만, **AI** 기술을 활용하여 **TV**를 시청하고 집안의 **IoT** 기기를 제어하는 편리함 때문에 많은 **신규 가입** 고객들이 **추천**합니다.
+        </p>
+
+        <h3>4. **KT 인터넷** **설치** 가능 지역 및 **설치비용**은?</h3>
+        <p>
+            **KT 인터넷**은 전국 어디든 설치가 가능하지만, **KT 기가 인터넷** (500M, 1G)은 지역에 따라 **설치**가 불가능할 수 있습니다. 특히 **제주도**나 **강원도** 산간 지역 또는 일부 신축 건물의 경우 **기가 인터넷** 인프라가 미비할 수 있습니다. **설치비용**은 **신규 가입** 시 **이벤트**를 통해 면제되거나 할인되는 경우가 많지만, 이사 등으로 인한 **재설치** 시에는 **비용**이 발생할 수 있으므로 **전문 업체**에 **상담**하여 **견적**을 확인해야 합니다.
+        </p>
+
+        <h3>5. **KT인터넷티비요금제**의 **장단점** 비교 (SKT, LG U+ 대비)</h3>
+        <p>
+            **KT인터넷티비요금제**의 **장점**은 압도적인 **인터넷** 품질과 전국 어디서든 안정적인 서비스망입니다. 특히 **SKT**나 **LG U+**가 커버하지 못하는 **KT**의 독점 서비스나 **결합 할인** 혜택이 매력적입니다. 반면 **단점**은 상대적으로 **SKT**나 **LG U+** 대비 **요금**이 비싸게 느껴질 수 있다는 점입니다. 하지만 **KT**의 **결합 할인**을 최대로 적용하면 **가격** 경쟁력도 충분하므로, 고객님의 **KT** 휴대폰 이용 현황에 따라 **장단점**이 달라집니다. **네이버**나 **구글**에서 **KT 인터넷 요금제 추천** 후기를 검색하여 다른 고객들의 **장단점** 비교를 확인하는 것이 좋습니다.
+        </p>
+    </section>
+
+    <hr>
+
+    <section id="contact-more">
+        <span id="contact-more-anchor" class="anchor"></span>
+        <h2>📞 **KT 인터넷 TV 요금제** 추가 할인 요소 상세 상담 신청</h2>
+        <p>
+            복잡한 결합 조건이나 **2026년** 최신 **사은품** **현금지원** **이벤트** 등 개별적인 추가 할인 요소에 대해 전문 상담사와 심층 상담을 원하시면 아래 양식을 작성해주세요. 가장 **저렴한** **KT인터넷티비요금제**를 찾을 수 있도록 돕겠습니다.
+        </p>
+        <form action="/deep-consulting" method="POST" style="max-width:600px; margin:auto; padding: 20px; border: 1px dashed #ccc; border-radius: 8px;">
+            <h3>세부 상담 요청서 (체류시간 증대)</h3>
+            <label for="name">이름<span style="color:red;">*</span></label>
+            <input type="text" id="name2" name="name" required />
+
+            <label for="phone">연락처<span style="color:red;">*</span></label>
+            <input type="tel" id="phone2" name="phone" required placeholder="010-1234-5678" pattern="[0-9\-]+" />
+
+            <label for="consult-type">상담 희망 내용<span style="color:red;">*</span></label>
+            <select id="consult-type" name="consult_type" required>
+                <option value="">선택하세요</option>
+                <option value="bundling">휴대폰 결합 할인 가능 여부</option>
+                <option value="cashback">최대 현금지원 및 사은품 문의</option>
+                <option value="installation-check">설치 가능 지역 및 요금제 문의</option>
+                <option value="moving">이사로 인한 가입/이전 문의</option>
+                <option value="etc">기타 상세 문의</option>
+            </select>
+
+            <label for="message">상세 요청 사항 및 특이사항</label>
+            <textarea id="message" name="message" rows="4" placeholder="예: KT 휴대폰 3회선 사용 중, 1개월 후 이사 예정, 사은품은 현금으로 받고 싶음"></textarea>
+
+            <div class="form-checkbox-group">
+                <input type="checkbox" id="privacy-agree2" name="privacy_agree2" required>
+                <label for="privacy-agree2">개인정보 수집 및 이용 동의 (필수)</label>
+            </div>
+
+            <button type="submit" class="btn-cta">추가 상담 요청 보내기</button>
+        </form>
+    </section>
+
+  
